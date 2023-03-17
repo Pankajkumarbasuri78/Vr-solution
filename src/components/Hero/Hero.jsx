@@ -6,10 +6,11 @@ import { Navbar } from '../Navbar/Navbar';
 
 const NavbarComponent = styled.div(props => ({
   position:'fixed',
+  //position:'relative',
   top:0,
   left:0,
   width:'100%',
-  height:'110px',
+  height:'6.8rem',//110px
   zIndex:1,
 }))
 const HeroLayout = styled.div(props => ({
@@ -17,7 +18,7 @@ const HeroLayout = styled.div(props => ({
   justifyContent: 'center',
   alignItems: 'center',
   width: '100%',
-  height: '826px',
+  height: '51.6rem',//826px
   position: 'relative',
   zIndex: 0,
 }));
@@ -46,13 +47,52 @@ const HeroBackground = styled.div(props => ({
 
 const HeroWrapper = styled.div(props => ({
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: 'row',
+  //gap:'550px',//left and right
+  justifyContent:'space-between',//only for left
   position: 'absolute',
-  top:'110px',
+  top:'6.8rem',//110px
   width: '79%',
   height: '100%',
   margin: '0 auto',
 }));
+
+//Content
+const LeftBar = styled.div(props => ({
+  display:'flex',
+  flexDirection:'column',
+  marginTop:'12.1rem',//195px
+  gap:'1.8rem'
+}))
+const RightBar = styled.div(props => ({
+  
+}))
+
+const Heading = styled.div(props => ({
+  fontSize:'4rem',//64px
+  lineHeight:'4.4rem',//71.36px
+  color:'#ffffff',
+  fontFamily:'Lora',
+  textTransform:'capitalizer',
+  height:'8.8rem',//142px
+  width:'26.4rem',//423px
+  
+}))
+const Desc = styled.div(props => ({
+  fontSize:'1rem',
+  lineHeight:'1.5rem',
+  color:'#ffffff',
+  fontFamily:'Roboto',
+  textTransform:'capitalizer',
+  height:'4.5rem',//72px
+  width:'26.3rem',//421px
+  
+}))
+const Buttons = styled.div(props => ({
+  display:'flex',
+  flexDirection:'row',
+  gap:'0.8rem'
+}))
 
 export const Hero = () => {
   return (
@@ -60,10 +100,42 @@ export const Hero = () => {
     <NavbarComponent>
       <Navbar />
     </NavbarComponent>
+
     <HeroLayout>
       <HeroBackground imageUrl="./pic.png" />
       <HeroWrapper>
-        <h1>hello</h1>
+        <LeftBar>
+          <Heading style={{ fontWeight: 600 }}>Loreim Ipsum Is here!</Heading>
+          <Desc style={{ fontWeight: 400 }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque erat lectus cursus quisque faucibus vulputate.
+          </Desc>
+          <Buttons>
+          <button 
+           style={{
+              height:'3rem',
+              width:'10rem',
+              fontSize:'1.2rem',
+              backgroundColor:'#001379',
+              border:'none',
+              color:'#FFFFFF',
+              cursor:'pointer',
+              }}>Sign Up</button>
+
+          <button 
+           style={{
+              height:'3rem',
+              width:'10rem',
+              fontSize:'1.2rem',
+              backgroundColor:'transparent',
+              border:'0.5px solid #ffffff',
+              color:'#FFFFFF',
+              cursor:'pointer',
+              }}>Login</button>
+          </Buttons>
+        </LeftBar>
+        <RightBar>
+        <h1>basuri</h1>
+        </RightBar>
       </HeroWrapper>
     </HeroLayout>
     </>

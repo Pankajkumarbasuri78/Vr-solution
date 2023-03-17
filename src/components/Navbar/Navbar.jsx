@@ -6,11 +6,11 @@ const NavbarLayout = styled.div(props => ({
   justifyContent: 'center',
   alignItems: 'center',
   width: '100%',
-  height: '110px',
+  height:'6.8rem',//110px
 }))
 const NavbarWrapper = styled.div(props=> ({
   display: 'flex',
-  flexDirection: 'column',
+  justifyContent:'space-between',
   width: '79%',
   height: '100%',
   margin: '0 auto',
@@ -35,13 +35,39 @@ const NavbarBackground = styled.div(props =>({
   },
 }))
 
+const Logo = styled.div(props => ({
+  display:'flex',
+  justifyContent:'flex-start',
+  alignItems:'center',
+
+}))
+const Button = styled.div(props => ({
+  display:'flex',
+  alignItems:'center',
+  
+}))
+
 
 export const Navbar = () => {
   return (
     <NavbarLayout>
     <NavbarBackground />
       <NavbarWrapper>
-        <h1>navbear</h1>
+        <Logo>
+        <img src='image/logo (temporary.svg' alt='logos' style={{height:'2.75rem',width:'8.6rem'}}/>
+        </Logo>
+        <Button>
+        <button 
+           style={{
+              height:'3rem',
+              width:'10rem',
+              fontSize:'1.2rem',
+              backgroundColor:'#ffffff',
+              border:'none',
+              color:'#002D54',
+              cursor:'pointer',
+              }}>Contact us</button>
+        </Button>
       </NavbarWrapper>
     </NavbarLayout>
   )

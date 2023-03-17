@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Aboutus = () => {
+export const Aboutus = (props) => {
   return (
-    <div>Aboutus</div>
+    <h1>hello</h1>
   )
 }
