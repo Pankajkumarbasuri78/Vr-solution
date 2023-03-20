@@ -3,29 +3,29 @@ import styled from 'styled-components'
 import { OfferingCard } from '../common/OfferingCard/OfferingCard'
 
 
-const Data = [
-    {
-        id:'1',
-        image:'/image/JobSeekers.png',
-        heading:'job seekers',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
-        button:'Apply Now',
-    },
-    {
-        id:'2',
-        image:'/image/JobSeekers.png',
-        heading:'industry Segments',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
-        button:'Explore ->',
-    },
-    {
-        id:'3',
-        image:'/image/JobSeekers.png',
-        heading:'Corporrate technical trainings',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
-        button:'View ->',
-    },
-]
+// const Data = [
+//     {
+//         id:'1',
+//         image:'/image/JobSeekers.png',
+//         heading:'job seekers',
+//         desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
+//         button:'Apply Now',
+//     },
+//     {
+//         id:'2',
+//         image:'/image/JobSeekers.png',
+//         heading:'industry Segments',
+//         desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
+//         button:'Explore ->',
+//     },
+//     {
+//         id:'3',
+//         image:'/image/JobSeekers.png',
+//         heading:'Corporrate technical trainings',
+//         desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.',
+//         button:'View ->',
+//     },
+// ]
 
 
 const OfferingLayout = styled.div(props => ({
