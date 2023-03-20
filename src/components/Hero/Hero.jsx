@@ -61,6 +61,7 @@ const HeroWrapper = styled.div(props => ({
 const LeftBar = styled.div(props => ({
   display:'flex',
   flexDirection:'column',
+  flexBasis:'40%',
   marginTop:'12.1rem',//195px
   gap:'1.8rem'
 }))
@@ -74,8 +75,8 @@ const Heading = styled.div(props => ({
   color:'#ffffff',
   fontFamily:'Lora',
   textTransform:'capitalizer',
-  height:'8.8rem',//142px
-  width:'26.4rem',//423px
+  //height:'8.8rem',//142px
+  //width:'26.4rem',//423px
   
 }))
 const Desc = styled.div(props => ({
@@ -84,8 +85,8 @@ const Desc = styled.div(props => ({
   color:'#ffffff',
   fontFamily:'Roboto',
   textTransform:'capitalizer',
-  height:'4.5rem',//72px
-  width:'26.3rem',//421px
+  //height:'4.5rem',//72px
+  //width:'26.3rem',//421px
   
 }))
 const Buttons = styled.div(props => ({
