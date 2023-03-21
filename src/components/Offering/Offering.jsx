@@ -52,13 +52,12 @@ const OfferingWrapper = styled.div(props => ({
 const Background = styled.div(props => ({
     position:'absolute',
     width:'84%',
-    height:'480px',//548px
-    left:'215px',
-    top:'1580px',
+    height:'480px',
+    left:'16%',
+    top:'1570px',
     background:'rgba(190, 224, 255, 0.307514)',
     borderRadius:'0px 0px 180px 0px',
     zIndex:-1,
-    //marginTop:'220px'
 
 
 }))
@@ -102,7 +101,7 @@ export const Offering = () => {
             </Card1>
             <Card2>
             <OfferingCard 
-                image='/image/JobSeekers.png'
+                image='/image/industry.png'
                 heading='Industry Segments'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
                 button='Explore ->'
@@ -111,7 +110,7 @@ export const Offering = () => {
             </Card2>
             <Card3>
             <OfferingCard 
-                image='/image/JobSeekers.png'
+                image='/image/copera.png'
                 heading='Corporrate Technical Trainings'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
                 button='View ->'
