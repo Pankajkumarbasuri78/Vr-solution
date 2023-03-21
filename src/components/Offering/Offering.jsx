@@ -54,7 +54,7 @@ const Background = styled.div(props => ({
     width:'84%',
     height:'480px',//548px
     left:'215px',
-    top:'1190px',
+    top:'1530px',
     background:'rgba(190, 224, 255, 0.307514)',
     borderRadius:'0px 0px 180px 0px',
     zIndex:-1,

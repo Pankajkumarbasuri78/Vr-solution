@@ -81,7 +81,7 @@ const  CardContainer = styled.div(props => ({
     background:'#ffffff',
     boxShadow:'0px 0px 45px rgba(0, 0, 0, 0.15)',
     border:'none',
-    padding:'35px 50px'
+    padding:'35px 50px',
 
 }))
 
