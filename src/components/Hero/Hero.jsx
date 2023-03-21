@@ -24,7 +24,7 @@ const HeroLayout = styled.div(props => ({
   height: '51.6rem',//826px
   position: 'relative',
   zIndex: 0,
-  
+  marginBottom:'340px'
 }));
 
 const HeroBackground = styled.div(props => ({
