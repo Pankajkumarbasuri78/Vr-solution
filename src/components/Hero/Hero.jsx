@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import Form from '../Form/Form';
+//import { OfferingCard } from '../common/OfferingCard/OfferingCard';
+//import { Form } from '../Form/Form';
 import { Navbar } from '../Navbar/Navbar';
 
 
@@ -21,6 +24,7 @@ const HeroLayout = styled.div(props => ({
   height: '51.6rem',//826px
   position: 'relative',
   zIndex: 0,
+  
 }));
 
 const HeroBackground = styled.div(props => ({
@@ -66,7 +70,9 @@ const LeftBar = styled.div(props => ({
   gap:'1.8rem'
 }))
 const RightBar = styled.div(props => ({
-  
+  position:'relative',
+  top:'350px',
+  right:'50px'
 }))
 
 const Heading = styled.div(props => ({
@@ -135,7 +141,7 @@ export const Hero = () => {
           </Buttons>
         </LeftBar>
         <RightBar>
-        <h1>basuri</h1>
+          <Form />
         </RightBar>
       </HeroWrapper>
     </HeroLayout>
