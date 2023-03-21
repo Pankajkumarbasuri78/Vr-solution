@@ -54,7 +54,7 @@ const Background = styled.div(props => ({
     width:'84%',
     height:'480px',//548px
     left:'215px',
-    top:'1530px',
+    top:'1580px',
     background:'rgba(190, 224, 255, 0.307514)',
     borderRadius:'0px 0px 180px 0px',
     zIndex:-1,
@@ -95,7 +95,7 @@ export const Offering = () => {
             <Card1>
             <OfferingCard 
                 image='/image/JobSeekers.png'
-                heading='job seekers'
+                heading='Job Seekers'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
                 button='Apply Now'
                 />
@@ -103,7 +103,7 @@ export const Offering = () => {
             <Card2>
             <OfferingCard 
                 image='/image/JobSeekers.png'
-                heading='industry Segments'
+                heading='Industry Segments'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
                 button='Explore ->'
                 />
@@ -112,7 +112,7 @@ export const Offering = () => {
             <Card3>
             <OfferingCard 
                 image='/image/JobSeekers.png'
-                heading='Corporrate technical trainings'
+                heading='Corporrate Technical Trainings'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
                 button='View ->'
                 />

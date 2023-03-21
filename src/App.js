@@ -1,22 +1,16 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Aboutus } from './components/Aboutus/Aboutus';
-import { Heading } from './components/common/Heading/Heading';
-//import { OfferingCard } from './components/common/OfferingCard/OfferingCard';
-import { Footer } from './components/Footer/Footer';
-import { Hero } from './components/Hero/Hero';
-import { Offering } from './components/Offering/Offering';
+import { HomePage } from './components/Pages/HomePage';
+
 
 
 function App() {
   return (
     <>
-    <Hero />
-    <Heading name='OUR OFFERINGS '/>
-    <Offering />
-    <Heading name='About Us'/>
-    <Aboutus />
-    <Footer />
+    <Routes>
+      <Route path='/' element={<HomePage />}/>
+    </Routes>
 
     </>
   );

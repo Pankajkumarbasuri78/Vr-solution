@@ -32,6 +32,13 @@ const Image = styled.div(props => ({
         paddingBottom:'1.6rem',
     }
 }))
+const Title = styled.div(props => ({
+    fontFamily:'Lora',
+    fontSize:'1.5rem',
+    fontWeight:700,
+    paddingBottom:'1.5rem',
+    color:'#001379'
+}))
 const Desc = styled.div(props => ({
     fontFamily:'Poppins',
     fontSize:'1rem',//16px
@@ -69,6 +76,7 @@ export const OfferingCard = (props) => {
             <Image>
                 <img src={props.image} alt='logo' />
             </Image>
+            <Title>{props.heading}</Title>
             <Desc>
               {props.desc}
             </Desc>
