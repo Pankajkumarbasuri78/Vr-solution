@@ -92,6 +92,7 @@ const Input = styled.div(props => ({
         fontWeight: 500,
         fontSize:'1.25rem',
         lineHeight:'132%',
+        cursor:'pointer'
     },
 }))
 
