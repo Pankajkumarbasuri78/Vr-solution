@@ -8,7 +8,7 @@ import { Offering } from '../Offering/Offering'
 export const HomePage = () => {
   return (
     <>
-        <Hero />
+        <Hero image='/pic.png'/>
         <Heading name='OUR OFFERINGS '/>
         <Offering />
         <Heading name='About Us'/>

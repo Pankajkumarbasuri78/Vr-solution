@@ -101,7 +101,7 @@ const Buttons = styled.div(props => ({
   gap:'0.8rem'
 }))
 
-export const Hero = () => {
+export const Hero = (props) => {
   return (
     <>
     <NavbarComponent>
@@ -109,7 +109,7 @@ export const Hero = () => {
     </NavbarComponent>
 
     <HeroLayout>
-      <HeroBackground imageUrl="./pic.png" />
+      <HeroBackground imageUrl={props.image} />
       <HeroWrapper>
         <LeftBar>
           <Heading style={{ fontWeight: 600 }}>Loreim Ipsum Is here!</Heading>
