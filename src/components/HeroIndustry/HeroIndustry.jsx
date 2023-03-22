@@ -88,15 +88,8 @@ const Desc = styled.div(props => ({
   color:'#ffffff',
   fontFamily:'Roboto',
   textTransform:'capitalizer',
-  //height:'4.5rem',//72px
-  //width:'26.3rem',//421px
   
 }))
-// const Buttons = styled.div(props => ({
-//   display:'flex',
-//   flexDirection:'row',
-//   gap:'0.8rem'
-// }))
 
 export const HeroIndustry = (props) => {
   return (
@@ -113,29 +106,6 @@ export const HeroIndustry = (props) => {
           <Desc style={{ fontWeight: 400 }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque erat lectus cursus quisque faucibus vulputate.
           </Desc>
-          {/* <Buttons>
-          <button 
-           style={{
-              height:'3rem',
-              width:'10rem',
-              fontSize:'1.2rem',
-              backgroundColor:'#001379',
-              border:'none',
-              color:'#FFFFFF',
-              cursor:'pointer',
-              }}>Sign Up</button>
-
-          <button 
-           style={{
-              height:'3rem',
-              width:'10rem',
-              fontSize:'1.2rem',
-              backgroundColor:'transparent',
-              border:'0.5px solid #ffffff',
-              color:'#FFFFFF',
-              cursor:'pointer',
-              }}>Login</button>
-          </Buttons> */}
         </LeftBar>
         <RightBar>
           
