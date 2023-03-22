@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const NavbarLayout = styled.div(props => ({
@@ -7,6 +8,7 @@ const NavbarLayout = styled.div(props => ({
   alignItems: 'center',
   width: '100%',
   height:'6.8rem',//110px
+
 }))
 const NavbarWrapper = styled.div(props=> ({
   display: 'flex',
@@ -39,6 +41,7 @@ const Logo = styled.div(props => ({
   display:'flex',
   justifyContent:'flex-start',
   alignItems:'center',
+  cursor:'pointer'
 
 }))
 const Button = styled.div(props => ({
@@ -54,7 +57,9 @@ export const Navbar = () => {
     <NavbarBackground />
       <NavbarWrapper>
         <Logo>
+        <Link to='/'>
         <img src='image/logo (temporary.svg' alt='logos' style={{height:'2.75rem',width:'8.6rem'}}/>
+        </Link>
         </Logo>
         <Button>
         <button 

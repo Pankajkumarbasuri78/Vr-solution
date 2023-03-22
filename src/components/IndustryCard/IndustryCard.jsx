@@ -24,7 +24,7 @@ const CardWrapper = styled.div(props => ({
     justifyContent:'center',
     width:'79%',
     height:'100%',
-    gap:'26px'
+    gap:'26px',
 
 }))
 
