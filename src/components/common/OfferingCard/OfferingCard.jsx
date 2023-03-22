@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const CardLayout = styled.div(props => ({
@@ -70,6 +71,18 @@ const Button = styled.div(props => ({
 
 
 export const OfferingCard = (props) => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        if(props.button === 'Explore ->'){
+            navigate('/industry');
+        }
+        if (props.button === 'View ->') {
+            navigate('/training');
+        } 
+    }
+
   return (
     <CardLayout>
         <CardWrapper>
@@ -81,7 +94,7 @@ export const OfferingCard = (props) => {
               {props.desc}
             </Desc>
             <Button>
-              <button>{props.button}</button>
+              <button onClick={handleClick}>{props.button}</button>
             </Button>
         </CardWrapper>
     </CardLayout>

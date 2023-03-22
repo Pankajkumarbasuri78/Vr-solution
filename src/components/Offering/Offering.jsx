@@ -93,6 +93,7 @@ export const Offering = () => {
             })} */}
             <Card1>
             <OfferingCard 
+                id='1'
                 image='/image/JobSeekers.png'
                 heading='Job Seekers'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
@@ -101,6 +102,7 @@ export const Offering = () => {
             </Card1>
             <Card2>
             <OfferingCard 
+                id='2'
                 image='/image/industry.png'
                 heading='Industry Segments'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
@@ -110,6 +112,7 @@ export const Offering = () => {
             </Card2>
             <Card3>
             <OfferingCard 
+                id='3'
                 image='/image/copera.png'
                 heading='Corporrate Technical Trainings'
                 desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
