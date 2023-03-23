@@ -47,6 +47,11 @@ const Logo = styled.div(props => ({
 const Button = styled.div(props => ({
   display:'flex',
   alignItems:'center',
+
+  [`@media (max-width:600px)`]:
+    {
+        display:'none',
+    }
   
 }))
 

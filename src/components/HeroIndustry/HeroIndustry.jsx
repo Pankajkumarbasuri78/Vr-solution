@@ -44,6 +44,7 @@ const HeroBackground = styled.div(props => ({
     background: 'radial-gradient(180.12% 444.61% at -66.99% 182.89%, #1C1C1C 0.37%, rgba(0, 18, 35, 0.682292) 25.14%, rgba(1, 19, 35, 0.696577) 53.34%, rgba(0, 54, 102, 0.307514) 82.78%, rgba(0, 105, 200, 0) 95.58%)',
     backgroundBlendMode: 'normal',
   },
+
 }));
 
 const HeroWrapper = styled.div(props => ({
@@ -56,6 +57,7 @@ const HeroWrapper = styled.div(props => ({
   width: '79%',
   height: '100%',
   margin: '0 auto',
+
 }));
 
 //Content

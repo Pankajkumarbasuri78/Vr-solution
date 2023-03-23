@@ -18,6 +18,13 @@ const FooterWrapper = styled.div(props => ({
     //alignItems:'center',
     paddingTop:'5.6rem',//90px
     paddingBottom:'7.25rem',//116px
+
+    [`@media (max-width:600px)`]:
+    {
+        flexDirection:'column',
+        gap:'5.37rem',
+        
+    }
     
 }))
 
@@ -26,6 +33,7 @@ const LeftContent = styled.div(props => ({
     flexDirection:'column',
     flexBasis:'40%',
     gap:'1.87rem',
+
 
 }))
 const Logo = styled.div(props => ({

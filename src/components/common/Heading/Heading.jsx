@@ -7,7 +7,12 @@ const HeadingContainer = styled.div(props => ({
     justifyContent:'flex-start',
     alignItems:'center',
     height:'9rem',//152px
-    marginLeft:'10%'
+    marginLeft:'10%',
+    [`@media (max-width:600px)`]:
+    {
+      overflow:'hidden'
+
+    }
 }))
 
 const HeadingText = styled.div(props => ({
