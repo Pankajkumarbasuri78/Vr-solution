@@ -52,13 +52,17 @@ const HeroBackground = styled.div(props => ({
 const HeroWrapper = styled.div(props => ({
   display: 'flex',
   flexDirection: 'row',
-  //gap:'550px',//left and right
   justifyContent:'space-between',//only for left
   position: 'absolute',
   top:'6.8rem',//110px
   width: '79%',
   height: '100%',
   margin: '0 auto',
+
+  [`@media (max-width:600px)`]:
+    {
+        flexDirection:'column',
+    }
 }));
 
 //Content
@@ -67,38 +71,66 @@ const LeftBar = styled.div(props => ({
   flexDirection:'column',
   flexBasis:'40%',
   marginTop:'12.1rem',//195px
-  gap:'1.8rem'
+  gap:'1.8rem',
+  [`@media (max-width: 600px)`]:
+  {
+    flexBasis:'20%',
+    marginTop:'2.3rem'
+  }
 }))
 const RightBar = styled.div(props => ({
   position:'relative',
   top:'350px',
-  right:'50px'
+  right:'50px',
+  [`@media (max-width: 600px)`]:
+  {
+    top:'50px',
+    right:'30px'
+    
+  }
 }))
 
 const Heading = styled.div(props => ({
   fontSize:'4rem',//64px
   lineHeight:'4.4rem',//71.36px
+  fontWeight: 600,
   color:'#ffffff',
   fontFamily:'Lora',
   textTransform:'capitalizer',
-  //height:'8.8rem',//142px
-  //width:'26.4rem',//423px
+
+  [`@media (max-width: 600px)`]:
+  {
+    fontSize:'2rem',
+    lineHeight:'111%',
+
+  }
   
 }))
 const Desc = styled.div(props => ({
   fontSize:'1rem',
   lineHeight:'1.5rem',
   color:'#ffffff',
+  fontWeight: 400,
   fontFamily:'Roboto',
   textTransform:'capitalizer',
-  //height:'4.5rem',//72px
-  //width:'26.3rem',//421px
+
+  [`@media (max-width: 600px)`]:
+  {
+    fontSize:'0.8rem',
+    lineHeight:'150%',
+    
+  }
   
 }))
 const Buttons = styled.div(props => ({
   display:'flex',
   flexDirection:'row',
-  gap:'0.8rem'
+  gap:'0.8rem',
+  [`@media (max-width: 600px)`]:
+  {
+    gap:'0.5rem'
+    
+  }
 }))
 
 export const Hero = (props) => {
@@ -112,8 +144,8 @@ export const Hero = (props) => {
       <HeroBackground imageUrl={props.image} />
       <HeroWrapper>
         <LeftBar>
-          <Heading style={{ fontWeight: 600 }}>Loreim Ipsum Is here!</Heading>
-          <Desc style={{ fontWeight: 400 }}>
+          <Heading>Loreim Ipsum Is here!</Heading>
+          <Desc>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque erat lectus cursus quisque faucibus vulputate.
           </Desc>
           <Buttons>

@@ -10,6 +10,11 @@ const  CardContainer = styled.div(props => ({
     boxShadow:'0px 0px 45px rgba(0, 0, 0, 0.15)',
     border:'none',
     padding:'35px 50px',
+    
+    [`@media (max-width : 600px)`]:
+    {
+      width:'230px'
+    }
 
 }))
 
