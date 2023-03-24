@@ -38,6 +38,12 @@ const OfferingLayout = styled.div(props => ({
     marginTop:'2.5rem',
     marginBottom:'22rem',//235px
 
+    [`@media (max-width: 600px)`]:
+  {
+    flexDirection:'column',
+
+  }
+
 }))
 const OfferingWrapper = styled.div(props => ({
     display:'flex',
@@ -46,6 +52,10 @@ const OfferingWrapper = styled.div(props => ({
     height:'100%',
     justifyContent:'space-between',
     alignItems:'center',
+    [`@media (max-width: 600px)`]:
+    {
+        flexDirection:'column'
+    }
     
     
 }))

@@ -10,7 +10,8 @@ const HeadingContainer = styled.div(props => ({
     marginLeft:'10%',
     [`@media (max-width:600px)`]:
     {
-      overflow:'hidden'
+      overflow:'hidden',
+      height:'63px'
 
     }
 }))
@@ -24,6 +25,10 @@ const HeadingText = styled.div(props => ({
     left:0,
     zIndex:2,
     color:'rgba(1, 20, 122, 0.05)',
+    [`@media (max-width: 600px)`]:
+    {
+        fontSize:'3.2rem'
+    }
 }))
 
 const SubheadingText = styled.div(props => ({
@@ -32,7 +37,11 @@ const SubheadingText = styled.div(props => ({
     margin:'0',
     zIndex:1,
     color:'#01147A',
-    position:'relative'
+    position:'relative',
+    [`@media (max-width: 600px)`]:
+    {
+        fontSize:'1.5rem',
+    }
 }))
 
 export const Heading = (props) => {
