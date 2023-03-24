@@ -40,7 +40,9 @@ const OfferingLayout = styled.div(props => ({
 
     [`@media (max-width: 600px)`]:
   {
+    marginTop:'1rem',
     flexDirection:'column',
+    marginBottom:'100px'
 
   }
 
@@ -77,11 +79,20 @@ const Card1 = styled.div(props => ({
 }))
 const Card2 = styled.div(props => ({
     position:'relative',
-    top:'120px'
+    top:'120px',
+
+    '@media (max-width: 600px)': {
+        top:'1.56rem'
+      }
 }))
 const Card3 = styled.div(props => ({
     position:'relative',
     top:'240px',
+
+    '@media (max-width: 600px)': {
+        top:'3rem'
+      }
+
 }))
 
 export const Offering = () => {

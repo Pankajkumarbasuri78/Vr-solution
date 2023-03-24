@@ -10,7 +10,12 @@ const ExpertiesLayout = styled.div(props => ({
     justifyContent:'center',
     alignItems:'center',
     marginTop:'5.6rem',
-    marginBottom:'19.6rem'
+    marginBottom:'19.6rem',
+
+    '@media (max-width: 600px)': {
+      marginTop:'1.8rem',
+      marginBottom:'2.25rem',
+    }
 }))
 const ExpertiesWrapper = styled.div(props => ({
     display:'flex',
@@ -20,7 +25,11 @@ const ExpertiesWrapper = styled.div(props => ({
     height:'100%',
     justifyContent:'space-evenly',
     alignItems:'center',
-    gap:'30px'
+    gap:'30px',
+    
+    '@media (max-width: 600px)': {
+      gap:'20px'
+    }
 
 }))
 

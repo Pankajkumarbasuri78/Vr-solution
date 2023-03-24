@@ -21,9 +21,14 @@ const HeroLayout = styled.div(props => ({
   height: '51.6rem',//826px
   position: 'relative',
   zIndex: 0,
-  marginBottom:'180px'
-}));
+  marginBottom:'180px',
 
+  '@media (max-width: 600px)': {
+    height:'400px',
+    marginBottom:'70px'
+  }
+
+}));
 const HeroBackground = styled.div(props => ({
   position: 'absolute',
   top: 0,
@@ -41,22 +46,32 @@ const HeroBackground = styled.div(props => ({
     left: 0,
     width: '100%',
     height: '100%',
-    background: 'radial-gradient(180.12% 444.61% at -66.99% 182.89%, #1C1C1C 0.37%, rgba(0, 18, 35, 0.682292) 25.14%, rgba(1, 19, 35, 0.696577) 53.34%, rgba(0, 54, 102, 0.307514) 82.78%, rgba(0, 105, 200, 0) 95.58%)',
+    background: 'radial-gradient(142.46% 353.58% at -29.34% 110.47%, #1C1C1C 0.37%, rgba(0, 18, 35, 0.682292) 53.43%, rgba(1, 19, 35, 0.696577) 55.43%, rgba(0, 54, 102, 0.307514) 74.95%, rgba(0, 105, 200, 0) 95.58%)',
     backgroundBlendMode: 'normal',
   },
-
+  '@media (max-width: 600px)': {
+    '&': {
+      width: '100%',
+      height: '388px',
+    }
+  }
 }));
+
 
 const HeroWrapper = styled.div(props => ({
   display: 'flex',
   flexDirection: 'row',
-  //gap:'550px',//left and right
   justifyContent:'space-between',//only for left
   position: 'absolute',
   top:'6.8rem',//110px
   width: '79%',
   height: '100%',
   margin: '0 auto',
+  
+  [`@media (max-width: 600px)`]:
+    {
+        flexDirection:'column',
+    }
 
 }));
 
@@ -66,12 +81,19 @@ const LeftBar = styled.div(props => ({
   flexDirection:'column',
   flexBasis:'40%',
   marginTop:'12.1rem',//195px
-  gap:'1.8rem'
+  gap:'1.8rem',
+  [`@media (max-width: 600px)`]:
+  {
+    flexBasis:'20%',
+    marginTop:'4.6rem',
+    width:'208px',
+    gap:'1rem'
+  }
 }))
 const RightBar = styled.div(props => ({
-  position:'relative',
-  top:'350px',
-  right:'50px'
+  // position:'relative',
+  // top:'350px',
+  // right:'50px'
 }))
 
 const Heading = styled.div(props => ({
@@ -80,8 +102,13 @@ const Heading = styled.div(props => ({
   color:'#ffffff',
   fontFamily:'Lora',
   textTransform:'capitalizer',
-  //height:'8.8rem',//142px
-  //width:'26.4rem',//423px
+  
+  [`@media (max-width: 600px)`]:
+  {
+    fontSize:'2rem',
+    lineHeight:'111%',
+
+  }
   
 }))
 const Desc = styled.div(props => ({
@@ -90,6 +117,13 @@ const Desc = styled.div(props => ({
   color:'#ffffff',
   fontFamily:'Roboto',
   textTransform:'capitalizer',
+
+  [`@media (max-width: 600px)`]:
+  {
+    fontSize:'0.8rem',
+    lineHeight:'150%',
+    
+  }
   
 }))
 
