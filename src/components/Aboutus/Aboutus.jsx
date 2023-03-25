@@ -307,7 +307,7 @@ export const Aboutus = (props) => {
 
           <RightImage>
           <Image2>
-              <img src='image/aboutus.svg' alt='img' />
+              <img src='/image/whyUs.svg' alt='img' />
             </Image2>
           </RightImage>
         </BottomMenu>

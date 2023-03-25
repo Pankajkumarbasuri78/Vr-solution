@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
+//import { IndustryPage } from '../../Pages/IndustryPage';
 
 const CardLayout = styled.div(props => ({
     display:'flex',
@@ -8,7 +9,7 @@ const CardLayout = styled.div(props => ({
     alignItems:'center',
     //height:'auto',
     width:'330px',
-    background: '#FFFFFF',
+    background: '#001379',
     boxShadow:'0px 0px 30px rgba(0, 0, 0, 0.15)',
 
 }))
@@ -38,13 +39,13 @@ const Title = styled.div(props => ({
     fontSize:'1.5rem',
     fontWeight:700,
     paddingBottom:'1.5rem',
-    color:'#001379'
+    color:'#FFFFFF'
 }))
 const Desc = styled.div(props => ({
     fontFamily:'Poppins',
     fontSize:'1rem',//16px
     lineHeight:'156%',//24px
-    color:'#000000',
+    color:'#FFFFFF',
     fontWeight:400,
     textTransform:'capitalize',
     fontStyle:'normal',
@@ -54,12 +55,12 @@ const Button = styled.div(props => ({
     '& button': {
         height: '3rem',//61px
         width: '15.8rem',//263px
-        background:'#001379',
+        background:'#FFFFFF',
         outline: 'none',
         cursor:'pointer',
         border:'none',
-        color:'#ffffff',
-        fontWeight:500,
+        color:'#01147A',
+        fontWeight:600,
         fontSize:'1.25rem',
         fontFamily:'Roboto',
         lineHeight:'132%',

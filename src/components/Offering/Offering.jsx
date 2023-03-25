@@ -115,18 +115,18 @@ export const Offering = () => {
             <Card1>
             <OfferingCard 
                 id='1'
-                image='/image/JobSeekers.png'
+                image='/image/CraeteProfile.png'
                 heading='Job Seekers'
-                desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
+                desc='At VR The Solutions, we help you open your doors to the organization you aspire and deserve to work with. Our connections with organizations globally and continuous efforts to cater to the demands across the various industry segments helps us align the need of the job seekers and the various organizations across different sectors. Mapping the right skills to appropriate requirements and helping the youth with their carrer growth is our prime motto.'
                 button='Apply Now'
                 />
             </Card1>
             <Card2>
             <OfferingCard 
                 id='2'
-                image='/image/industry.png'
+                image='/image/ExplorePic.png'
                 heading='Industry Segments'
-                desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
+                desc='At VR The Solutions, we help you find the correct talent with skills needed to meet your requirements. With our intense screening process and  in house trainings, we target to identify the correct skills aligned with the need of the hour. Helping your business growth by providing you the correct resources is our prime motto.'
                 button='Explore ->'
                 />
 
@@ -134,9 +134,9 @@ export const Offering = () => {
             <Card3>
             <OfferingCard 
                 id='3'
-                image='/image/copera.png'
+                image='/image/ViewPic.png'
                 heading='Corporrate Technical Trainings'
-                desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus dictum tristique varius turpis egestas. Tellus gravida venenatis, nibh pellentesque imperdiet enim, dolor, suspendisse urna. Lobortis dictum arcu eu a vehicula a nibh risus.'
+                desc='At VR The Solutions, we help facilitate industry specific trainings to help nurture the talent and prepare you for the corporate world. Based on emerging industry needs and evolving technology, our structured programs focus on creating professionals who can help meet the organizatinal goals and values.'
                 button='View ->'
                 />
             </Card3>
